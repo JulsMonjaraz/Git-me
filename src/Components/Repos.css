@@ -1,0 +1,24 @@
+.repos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.chart-container {
+    width: 30%;
+    height: 50%;
+    margin-right: 1.5rem;
+    transition: ease .2s;
+}
+
+.chart-container:hover {
+   transform: scale(1.05);
+}
+
+
+
+
+
